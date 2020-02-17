@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.wit.plannerapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:6:5-78
+11-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:6:22-76
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
+15-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:24:22-64
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:8:5-40:19
+22        android:name="org.wit.plannerapp.main.PlannerApp"
+22-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:9:13-62
+23        android:allowBackup="true"
+23-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:10:13-39
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/e7310b10cc2fb9baef9b1b7b0018c8c4/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:11:13-47
+27        android:label="@string/app_name"
+27-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:12:13-45
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:13:13-58
+29        android:supportsRtl="true"
+29-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:14:13-39
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:15:13-44
+32        <activity android:name="org.wit.plannerapp.activities.MainActivity" />
+32-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:16:9-88
+32-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:16:19-76
+33        <activity android:name="org.wit.plannerapp.activities.MainListActivity" >
+33-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:17:9-23:20
+33-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:17:19-80
+34            <intent-filter>
+34-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:19:17-68
+35-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:21:17-76
+37-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:27:9-29:59
+42            android:name="com.google.android.geo.API_KEY"
+42-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:28:17-62
+43            android:value="@string/google_maps_key" />
+43-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:29:17-56
+44
+45        <activity
+45-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:31:9-33:62
+46            android:name="org.wit.plannerapp.activities.MapsActivity"
+46-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:32:17-74
+47            android:label="@string/title_activity_maps" />
+47-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:33:17-60
+48        <activity
+48-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:34:9-37:56
+49            android:name="org.wit.plannerapp.activities.MainMapsActivity"
+49-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:35:13-74
+50            android:label="Map of all Planners"
+50-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:36:13-48
+51            android:theme="@style/AppTheme" />
+51-->/Users/laurengallagher/Desktop/PlannerApp/app/src/main/AndroidManifest.xml:37:13-44
+52
+53        <!-- Needs to be explicitly declared on P+ -->
+54        <uses-library
+54-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+55            android:name="org.apache.http.legacy"
+55-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+56            android:required="false" />
+56-->[com.google.android.gms:play-services-maps:16.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/bef5113a0c407a3593b8c7ff54ce6add/play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/1cc595ba08783a1b98ecec74de764e7d/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/1cc595ba08783a1b98ecec74de764e7d/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/1cc595ba08783a1b98ecec74de764e7d/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/1cc595ba08783a1b98ecec74de764e7d/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/dd816cf017ab8c20ddd78a58f7716e2a/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/dd816cf017ab8c20ddd78a58f7716e2a/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:16.0.1] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/dd816cf017ab8c20ddd78a58f7716e2a/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+66        <meta-data
+66-->[com.android.support:support-v4:26.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/7de38a1bb986db51fd1dfdf274d7f8cf/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+67            android:name="android.support.VERSION"
+67-->[com.android.support:support-v4:26.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/7de38a1bb986db51fd1dfdf274d7f8cf/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+68            android:value="26.1.0" />
+68-->[com.android.support:support-v4:26.1.0] /Users/laurengallagher/.gradle/caches/transforms-2/files-2.1/7de38a1bb986db51fd1dfdf274d7f8cf/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+69    </application>
+70
+71</manifest>

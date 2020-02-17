@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Student Planner App</string>
+    <string name="hint_plannerTitle">Study Plan Title</string>
+    <string name="hint_plannerDescription">Description</string>
+    <string name="button_addPlanner">Add Study Plan</string>
+    <string name="menu_addPlanner">Add</string>
+    <string name="menu_cancelPlanner">Cancel</string>
+    <string name="enter_planner_title">Please enter your Name</string>
+    <string name="button_save_planner">Save name</string>
+    <string name="button_addImage">Add Image</string>
+    <string name="select_plannerapp_image">Select image</string>
+    <string name="change_plannerapp_image">Change image</string>
+    <string name="button_location">Set Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu_deletePlanner">Delete</string>
+    <string name="title_activity_main_maps">Map of all Plans</string>
+</resources>

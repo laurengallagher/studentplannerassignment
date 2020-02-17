@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">https://maps.google.com/maps?q=Ballykeane%2C%20Geashill%2C%20Co.Offaly&amp;t=z=13ie=UTF8iwloc=output=embed</string>
+
+</resources>
